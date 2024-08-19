@@ -60,7 +60,7 @@ export class ListComponent implements OnInit {
         break;
       }
     }
-    if (this.cliente.saldo < this.monto_minimo) {
+    if (this.cliente.saldo < this.monto) {
       window.alert('No tiene saldo disponible para vincularse al fondo ' + this.nombre);
     }else{
       if (this.monto < this.monto_minimo) {
