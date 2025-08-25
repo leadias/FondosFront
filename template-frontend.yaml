@@ -18,6 +18,7 @@ Resources:
       CloudFrontOriginAccessIdentityConfig:
         Comment: !Sub 'OAI for ${AWS::StackName}'
 
+        
   FrontBucketPolicy:
     Type: AWS::S3::BucketPolicy
     Properties:
